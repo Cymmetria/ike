@@ -16,7 +16,7 @@ setup(name='ike',
       author_email='k@77.fi',
       url='http://github.com/kimvais/ike/',
       download_url='https://github.com/kimvais/ike/releases',
-      packages=['ike'],
+      packages=['ike', 'ike.util'],
       classifiers=[
           'Development Status :: 3 - Alpha',
           'License :: OSI Approved :: MIT License',
